@@ -1,0 +1,123 @@
+
+.form, .align-center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+a.navbar-brand img.logo {
+    width: 150px;
+}
+.bg-dark {
+    background-color: #c8d0d8!important;
+}
+a#register, #logout {
+    background: #FF5722;
+    color: #fff;
+    padding: 5px 17px 9px;
+}
+form.myform {
+    background: #eee;
+    padding: 27px;
+    margin-top: 13%;
+}
+form.myform h3 {
+    color: #FF5722;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.error {
+    color: #F44336;
+    margin-bottom: 20px;
+}
+div#chatbox {
+    margin-top: 32px;
+    box-shadow: 2px 2px 17px 0px #dedede;
+    border: 1px solid #e8e2ce;
+}
+div#sender {
+    background: #fdeee9;
+    padding: 0;
+    overflow-y: scroll;
+        height: 380px;
+}
+.chat_with {
+    border-bottom: 1px solid #ff572233;
+    padding: 12px 0px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #e82020;
+}
+.chat_with:hover {
+    background: #f5f2f2;
+}
+div#message-body {
+    min-height: 250px;
+    border-bottom: 1px solid #fbd6c9;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 250px;
+    overflow-y: scroll;
+    padding-right: 14px;
+}
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+.message.right {
+    text-align: right;
+    background: #ebffec;
+}
+.message.left {
+    text-align: left;
+    background: #f9f1db;
+}
+.chat_with.active {
+    background: #e0ae25;
+    color: #fff;
+}
+.chat_title {
+    margin-top: 15px;
+}
+#message-body-new { 
+	display: none;
+	position: relative;
+    height: 250px;
+    overflow-y: scroll;
+    margin-top: 20px;
+    border-bottom: 1px solid #fbd6c9;
+    margin-bottom: 20px;
+    padding-right: 14px;}
+
+.preloader-chat, .preloader {
+    width: 96%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    z-index: 99999;
+    background: #fff;
+}
+.preloader-chat .cssload-speeding-wheel, .preloader .cssload-speeding-wheel {
+    position: absolute;
+    top: calc(35% - 3.5px);
+    left: calc(50% - 3.5px);
+}
+
+.cssload-speeding-wheel {
+    width: 31px;
+    height: 31px;
+    margin: 0 auto;
+}
+span.time_m {
+    font-size: 11px;
+    color: #777;
+}
+h1.mt-5.myh span {
+    color: #ff5722;
+}
+button.btn.btn-default.cong {
+    background: #009688;
+    color: #fff;
+}
